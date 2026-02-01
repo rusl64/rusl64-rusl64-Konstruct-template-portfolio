@@ -59,21 +59,39 @@ color: #fff;
 }
 /* navbar */
 ul {
+padding: 0;
+margin: 0;
+display: flex;
 list-style-type: none;
+}
+ul li:nth-child(2) {
+color: #00A4E5;
+}
+ul li {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.09em;
+text-align: center;
 }
 .navbar {
 
 }
 .block_navbar_flex {
-
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 0 auto;
 }
 .navbar_left {
-
+padding-top: 24px;
+padding-left: 40px;
 }
 .navbar_img {
 
 }
 .navbar_right {
-
+padding-left: 10px;
+padding-right: 10px;
 }
 
