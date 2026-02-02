@@ -58,6 +58,26 @@ text-align: center;
 color: #fff;
 }
 /* navbar */
+<<<<<<< HEAD
+=======
+ul {
+padding: 0;
+margin: 0;
+display: flex;
+list-style-type: none;
+}
+ul li:nth-child(2) {
+color: #00A4E5;
+}
+ul li {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.09em;
+text-align: center;
+margin-right: 24px;
+}
+>>>>>>> 05915efdc35d40efd55acaa1b65f19204ea4928c
 .navbar {
 
 }
