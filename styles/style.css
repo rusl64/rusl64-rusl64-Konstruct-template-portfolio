@@ -58,8 +58,6 @@ text-align: center;
 color: #fff;
 }
 /* navbar */
-<<<<<<< HEAD
-=======
 ul {
 padding: 0;
 margin: 0;
@@ -77,7 +75,6 @@ letter-spacing: 0.09em;
 text-align: center;
 margin-right: 24px;
 }
->>>>>>> 05915efdc35d40efd55acaa1b65f19204ea4928c
 .navbar {
 
 }
@@ -127,5 +124,128 @@ margin-right: 35px;
 li:nth-child(4) {
 margin-right: 26px;
 }
+/* about */
+.about {
+min-height: 344px;
+}
+.block_about {
+max-width: 941px;
+margin: 0 auto;
+}
+.about_title {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #48555b;
+margin-bottom: 12px;
+padding-top: 81px;
+}
+.line {
+border-bottom: solid 2px #00a4e5;
+width: 50px;
+margin: 0 auto;
+margin-bottom: 51px;
+}
+.about_flex {
+display: flex;
+}
+.left_about {
+max-width: 398px;
+margin-right: 84px;
+}
+.left_h4 {
+font-family: "OpenSans", sans-serif;
+font-weight: 700;
+font-size: 20px;
+letter-spacing: 0.02em;
+color: #48555b;
+margin-bottom: 30px;
+line-height: 27.2px;
+}
+span {
+color: #00a4e5;
+}
+.left_p {
+font-family: "OpenSans", sans-serif;
+font-weight: 400;
+font-size: 13px;
+letter-spacing: 0.59px;
+line-height: 23.5px;
+}
+.right_flex {
+display: flex;
+align-items: flex-end;
+gap: 19px;
+}
+/* services */
+.services {
+min-height: 446px;
+}
+.block_services {
+max-width: 940px;
+padding-top: 100px;
+margin: 0 auto;
+}
+.flex_top_services {
+display: flex;
+justify-content: space-between;
+}
+.left_top_services {
+
+}
+.top_services_h2 {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.13em;
+color: #48555b;
+margin-right: 118px;
+}
+.midle_top_services {
+
+}
+.top_services_p {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 11px;
+line-height: 173%;
+letter-spacing: 0.02em;
+color: #48555b;
+}
+.right_top_services {
+
+}
+.services_btn {
+width: 150px;
+height: 40px;
+background: #00a4e5;
+border: none;
+}
+.flex_down_services {
+
+}
+.down_left_block_services {
+
+}
+.services_img {
+
+}
+.down_h3 {
+
+}
+.down_p {
+
+}
+.down_midle_block_services {
+
+}
+.down_right_block_services {
+
+}
+
+
+
 
 
